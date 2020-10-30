@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 5: Use Accordion Menu as FAQ Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../skins/page.css" rel="stylesheet" />
+    <link href="accordion-menu.css" rel="stylesheet" />
+    <script src="accordion-menu.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="http://www.menucool.com/">Menucool</a>
+        <span id="top-nav">
+            <a href="../demo1/demo.html">DEMO 1</a>
+            <a href="../demo2/demo.html">DEMO 2</a>
+            <a href="../demo3/demo.html">DEMO 3</a>
+            <a href="../demo4/demo.html">DEMO 4</a>
+            <a href="../demo5/demo.html" class="active">DEMO 5</a>
+            <a href="../demo6/demo.html">DEMO 6</a>
+            <a href="../demo7/demo.html">DEMO 7</a>
+        </span>
+    </header>  
+    <div style="max-width:820px;margin:0 auto;">
+        <h1>Demo 5: Use Accordion Menu as FAQ Template</h1>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h2>FAQ:</h2>
+        <div id="accordion">
+            <ul>
+                <li>
+                    <div>Group A</div>
+                    <ul>
+                        <li id="a1">
+                            <div>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+                            <p>
+                                <b>Answer:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesque vulputate sagittis.
+                                Curabitur in lorem interdum, pharetra elit nec, laoreet ipsum. Aenean id vestibulum mauris, eget rhoncus dui.
+                            </p>
+                        </li>
+                        <li>
+                            <div>Q: Quisque tristique nisl aliquet eget et dui?</div>
+                            <p>
+                                <b>Answer:</b> Vestibulum pharetra rhoncus risus, et vehicula arcu luctus quis. Sed rutrum, quam eu dapibus dignissim, 
+                                leo massa convallis velit, a viverra leo est eu tellus. Suspendisse potenti. Duis a neque nec velit placerat pulvinar sit amet sit amet sem. 
+                            </p>
+                        </li>
+                        <li>
+                            <div>Q: Donec eu mi fringilla, placerat nunc vel, feugiat purus?</div>
+                            <p>
+                                <b>Answer:</b> Nullam tempus consequat diam aliquet tempor. Quisque mattis iaculis luctus. Ut quis felis venenatis, tristique eros fermentum, 
+                                gravida eros. Maecenas euismod vitae dui at eleifend. Phasellus eget suscipit ex. Vivamus quis sodales sapien. Suspendisse 
+                                laoreet lobortis elit egestas pulvinar. Nunc faucibus est nec mattis iaculis. Mauris et convallis dolor, scelerisque sodales risus.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li id="a2">
+                    <div>Q: Proin rutrum sapien vitae tellus consectetur mattis non quis leo?</div>
+                    <p>
+                        <b>Answer:</b> Sed fringilla, lacus eu elementum ultricies, orci sem vestibulum mi, at hendrerit turpis ligula quis tortor.
+                        Aliquam molestie est quis quam fringilla, quis tincidunt velit dictum. Donec vulputate, sapien vel semper placerat,
+                        lectus libero sollicitudin metus, quis sagittis nisi enim ac nisi. In scelerisque urna pulvinar justo pellentesque dapibus.
+                        <br /><img src="../skins/bg1.jpg" />
+                    </p>
+                </li>
+                <li id="a3">
+                    <div>Q: Duis interdum nisi at ligula?</div>
+                    <p>
+                        <b>Answer:</b> In finibus euismod libero, in pharetra felis fringilla eu. Suspendisse gravida, purus eget lacinia tempus, metus ipsum scelerisque justo,
+                        ut egestas sapien lacus sed mauris. Nunc mi risus, luctus sit amet feugiat at, posuere id orci. Maecenas nibh lectus,
+                        tempus vitae euismod dictum, luctus nec mauris.
+                    </p>
+                </li>
+                <li>
+                    <div>Q: Morbi vitae nibh sit amet mi suscipit porta?</div>
+                    <p><b>Answer:</b> Aenean sagittis rutrum sapien, vitae dignissim augue ultrices ut. Suspendisse laoreet mattis mollis. 
+                    Donec malesuada enim ac nibh condimentum ornare. Praesent hendrerit convallis finibus.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div style="height:80px;clear:both;"></div>
+        <p>
+            The accordion widget is not limited to be a navigation bar. It can also be used to display collapsible content blocks.
+            This really gives a clean look to your page, as shown in the typical FAQ template below.
+        </p>
+        <div style="height:80px;clear:both;"></div>
+        <p>For details please visit <a href="http://www.menucool.com/vertical/faq-template">Use Accordion Menu as FAQ Template</a></p>
+        <div style="height:80px;clear:both;"></div>
+        <p>......Read <a href="#a1" onclick="amenu.expand('a1')">answer a1</a></p>
+        <p>......Read <a href="#a2" onclick="amenu.expand('a2')">answer a2</a></p>
+        <p>......Read <a href="#a3" onclick="amenu.expand('a3')">answer a3</a></p>
+        <p><a href="#a3" onclick="amenu.close()">Close expanded items</a></p>
+        <p>&nbsp;</p>
+        <div style="height:100px;clear:both;"></div>
+    </div>
+</body>
+</html>
